@@ -43,7 +43,10 @@ To set up the project locally, follow these steps:
     ```
 3. Install the necessary dependencies:
     ```bash
-    npm install
+    npm init -y
+    npm i -D nodemon
+    npm i express 
+    npm install mongoose
     ```
 4. Set up your environment variables. Update a `.server.js` file in the root directory and add the following:
     ```
